@@ -28,6 +28,10 @@ The relational schema consists of **15 normalized tables** covering all core fun
 
 Each table has been carefully designed with appropriate **foreign key constraints**, **indexes**, and **data validation rules** to maintain referential integrity and enhance query performance.
 
+## ER Diagram 
+ >![Image](Screenshots/ERD.png)
+
+
 ## SQL Implementation Details
 
 The MySQL implementation includes **triggers** for automated enforcement of business rules. For example, stock levels are updated automatically upon order placement or restocking. Other triggers validate payment consistency and restrict incorrect data entries into sensitive tables like `CreditCardPayments` and `GiftCardPayments`.
@@ -35,6 +39,10 @@ The MySQL implementation includes **triggers** for automated enforcement of busi
 Advanced **constraints**, such as `CHECK`, `UNIQUE`, and `DEFAULT` values, are utilized to ensure data quality and reduce manual error handling.
 
 ## SQL Queries Implemented 
+
+**Query 1:** Retrieve customer orders with names, order IDs, product details, quantities, and prices, ordered by customer, order, and product.
+ >![Image](Screenshots/1.png)
+
 
 
 ## Future Enhancements
