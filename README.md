@@ -45,11 +45,28 @@ Advanced **constraints**, such as `CHECK`, `UNIQUE`, and `DEFAULT` values, are u
 
 
 
+**Query 2:** Summarize total sales, average order value, and order count per customer.
+ >![Image](Screenshots/2.png)
+
+
+
+**Query 3:** Retrieve top 5 products by quantity sold and total revenue.
+ >![Image](Screenshots/3.png)
+
+
+
+**Query 4:** Orders using both credit card and gift card payments with amounts for each method.
+ >![Image](Screenshots/4.png)
+
+
+
+
+
 ## Future Enhancements
 
 Future expansions include integrating **machine learning** models for inventory forecasting and using **sentiment analysis** on product reviews to better understand customer satisfaction. The system is also designed to scale with **cloud-based analytics** and **BI tools** like Amazon QuickSight for advanced reporting.
 
-##Conclusion
+## Conclusion
 
 The e-commerce database system provides a comprehensive and scalable solution for managing the core operations of an online retail business. With features that ensure secure transactions, efficient inventory control, and flexible payment handling, the database supports seamless day-to-day operations.
 
